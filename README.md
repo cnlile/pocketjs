@@ -20,6 +20,7 @@ curl http://localhost:8008/v1/user?id=11
 
 ###  Modify Config File
   基于配置的方式定义api应用, 主要基于./config 目录下文件。每次修改完配置文件后，请重启服务。
+ 
 `1.` api file
     默认的api配置文件为apiservice.json，采用标准的openapi定义文件，即可生成api应用，业务内容指向./controllers 下文件内容。
 
