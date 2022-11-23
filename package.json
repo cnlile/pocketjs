@@ -1,0 +1,29 @@
+{
+  "name": "infocs",
+  "version": "1.0.0",
+  "description": "news and info center service",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lile",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "ioredis": "^5.0.4",
+    "log4js": "^6.4.5",
+    "moment": "^2.29.3",
+    "mongoose": "^5.12.12",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "uuid": "^8.3.2"
+  }
+}

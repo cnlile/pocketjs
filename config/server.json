@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "port": 8008,
+  "host": "127.0.0.1",
+  "boot": {
+    "loaddata": true
+  },
+  "swagger-docs": true
+}

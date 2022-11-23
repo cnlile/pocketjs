@@ -1,0 +1,9 @@
+{
+  "SUCCESS": {"code": 0, "message": "Success"},
+  "EXCEPTIONS": {"code": 10001, "message": "The system is exceptions"},
+  "PATH_NOT_EXISTS": {"code":10010, "message": "The access request path does not exist"},
+  "UNAUTH_USER": {"code": 10011, "message": "The access forbidden for unauthorized users"},
+  "PATH_DENIED": {"code": 10015, "message": "Access to the requested path was denied"},
+  "TIMESTAMP_ERROR": {"code": 10017, "message": "The timestamp is error"},
+  "PARAM_ERROR": {"code": 10018, "message": "The parameters requested for access are error"}
+}

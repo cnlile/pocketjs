@@ -1,0 +1,72 @@
+{
+  "openapi": "3.0.0",
+  "servers": [
+    {
+      "url": ""
+    }
+  ],
+  "info": {
+    "description": "",
+    "version": "1.0.0",
+    "title": "服务",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+        "email": "lunareye@126.com"
+    },
+    "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "tags": [
+    {
+      "name": "user",
+      "description": "用户"
+    }
+  ],
+  "paths": {
+    "/user": {
+      "get":{
+        "description": "用户查询服务",
+        "operationId": "userQuery",
+        "tags": [
+          "user"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "100124124"
+            },
+            "description": "用户的ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "default": "SUCCESS"
+                    },
+                    "message": {
+                      "type": "string",
+                      "default": "成功"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

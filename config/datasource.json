@@ -1,0 +1,22 @@
+{
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": "3306",
+    "database": "",
+    "username": "",
+    "password": ""
+  },
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "path": "/",
+    "username": "",
+    "password": ""
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": "jh10086",
+    "db_number": 0
+  }
+}

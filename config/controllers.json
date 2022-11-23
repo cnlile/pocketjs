@@ -1,0 +1,17 @@
+{
+  "operation":{
+    "userQuery": {
+      "path": "/user",
+      "authCaller": ["all"],
+      "functionName": "query"
+    }
+  },
+  "basePath": "/v1",
+  "apiDir": "../controllers",
+  "apiRootDir": "./controllers",
+  "apiFilterPathList": [
+    "/"
+  ],
+  "isCheckApiParram": true,
+  "timestampTimeout": 0
+}
