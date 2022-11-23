@@ -1,7 +1,7 @@
 # pocketjs
 mini combination api service base in express
 
-##About pocketjs
+# About pocketjs
 这个一个基于Nodejs Express 框架之上的组合api服务，加载常用的组件，并且进行了整合，追求简单，快速，方便，下载即用。也可以作为一个express 实用的应用案例，以供大家学习传统的express服务的使用。
 
 ## Get started
